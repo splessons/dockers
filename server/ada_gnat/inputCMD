@@ -1,0 +1,1 @@
+DockerTimeout.sh 20s -i -t -v  $(pwd):/usercode sp_vm_ada_gnat /usercode/script.sh gnatmake /usercode/hello_world.adb ./hello_world  DockerTimeout.sh 20s -i -t -v  $(pwd):/usercode sp_vm_ada_gnat /usercode/script.sh gnatmake /usercode/hello_world.adb ./hello_world  
