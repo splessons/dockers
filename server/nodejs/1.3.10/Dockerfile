@@ -1,0 +1,8 @@
+FROM splessons/base:14.04
+LABEL maintainer="splessons"
+
+RUN apt-get install -y nodejs
+RUN ln -s  /usr/bin/nodejs  /usr/bin/node
+RUN apt-get install -y npm
+RUN npm install -g uglify-js
+RUN rm -rf /var/lib/apt/lists/*

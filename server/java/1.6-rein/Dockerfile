@@ -1,4 +1,4 @@
-FROM splessons/base:14.04
+FROM splessons/base:12.04
 LABEL maintainer="splessons"
 
 RUN add-apt-repository -y ppa:webupd8team/java
